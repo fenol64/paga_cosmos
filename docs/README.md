@@ -1,124 +1,113 @@
-# P.A.G.A. – Promessa Assinada Gera Atitude
+# 🌐 P.A.G.A. – Signed Promise Generates Action
 
-![P.A.G.A. Logo](./mnt/data/paga-logo.jpg)
-
-## Introdução
-
-O **P.A.G.A.** (Programa de Participação e Ação Governamental Ativa) é uma plataforma inovadora que visa fortalecer a democracia, estimular a participação cidadã e promover maior transparência na gestão pública. O projeto incentiva os eleitores a monitorarem o cumprimento das promessas de campanha dos políticos e, como incentivo, recompensa essa fiscalização com tokens baseados em **tecnologia Web3**.
+P.A.G.A. (Promessa assinada gera atitude) is a **decentralized civic engagement platform** that strengthens democracy by empowering citizens to monitor and validate political promises. By using Web3 technology and tokenized incentives, P.A.G.A. creates a new democratic layer: citizens not only vote but also verify and influence public decisions beyond election cycles.
 
 ---
 
-## 🎯 Objetivos
+## 🧭 Purpose
 
-- ✅ Incentivar a população a acompanhar e fiscalizar os governantes.
-- ✅ Criar uma relação direta entre promessas eleitorais e sua execução.
-- ✅ Garantir maior transparência e engajamento cívico.
-- ✅ Oferecer recompensas na forma de tokens Web3, que podem ser usados no comércio local.
-- ✅ Implementar o **Selo de Político Confiável**, uma certificação que atesta a credibilidade dos políticos.
+P.A.G.A. aims to restore trust in politics by giving the public **a real-time voice** and **a tangible reward** for civic participation. Citizens can monitor whether political promises are being fulfilled and receive token incentives in return.
 
 ---
 
-## 🛠️ Arquitetura baseada no Modelo de Blocos
+## 🎯 Key Objectives
 
-### Visão Geral
-
-A arquitetura do P.A.G.A. é estruturada para garantir escalabilidade, transparência e segurança. O diagrama abaixo ilustra os principais componentes do sistema e suas interações.
-
-![Diagrama de Blocos da Arquitetura](./mnt/data/A_professional_block_diagram_illustrating_the_arch.png)
-
-### Camadas da Arquitetura
-
-1. **Camada de Interação do Usuário**
-   - Eleitores
-   - Políticos
-   - Comércio Local
-
-2. **Frontend (Aplicação Web3)**
-   - Desenvolvido em **React.js + TailwindCSS**
-   - Autenticação via carteiras Web3 (MetaMask, Trust Wallet)
-
-3. **Backend (API & Lógica de Negócio)**
-   - Implementado com **Node.js + NestJS**
-   - Gerencia requisições da API e autenticação
-
-4. **Camada Blockchain**
-   - **Ethereum/Polygon** com contratos inteligentes **Solidity**
-   - Armazena promessas, transações e distribuição de tokens
-
-5. **Banco de Dados & Armazenamento**
-   - **PostgreSQL** para dados estruturados
-   - **IPFS** para armazenamento descentralizado de provas
-
-6. **Sistema de Tokens & Recompensas**
-   - Implementação de **tokens ERC-20 / ERC-721** para recompensas
-
-7. **Oracles & Dados Externos**
-   - Oráculos para integração com registros públicos governamentais
+- ✅ Encourage active monitoring of political actions by citizens
+- ✅ Connect campaign promises to verifiable execution
+- ✅ Promote transparency and civic responsibility
+- ✅ Offer blockchain-based rewards usable in the local economy
+- ✅ Introduce the **Trusted Politician Seal** to publicly certify accountability
 
 ---
 
-## 🚀 Como Funciona
+## ⚙️ Architecture Overview
 
-1. 📌 **Registro e Autenticação**: Os cidadãos fazem login na plataforma usando carteiras Web3 como MetaMask.
-2. 📝 **Monitoramento**: Os usuários podem registrar o acompanhamento de promessas de campanha dos políticos.
-3. ✅ **Validação Comunitária**: Outras pessoas podem votar e verificar a veracidade das informações.
-4. 🎁 **Recompensas com Tokens**: Com base na participação e na qualidade das informações fornecidas, os cidadãos recebem tokens.
-5. 🛒 **Uso dos Tokens**: Os tokens podem ser usados em estabelecimentos parceiros do comércio local.
-6. 🏅 **Selo de Político Confiável**: Políticos que cumprem suas promessas recebem um selo que melhora sua reputação pública.
+P.A.G.A. follows a modular, scalable architecture combining Web3 technologies and traditional backend services:
+
+### 📌 Main Layers
+
+1. **User Interaction Layer**
+   - Citizens (voters), politicians, and local businesses
+
+2. **Frontend**
+   - Built with **Next.js + Bootstrap**
+   - Wallet authentication via cosmjs interchain
+
+3. **Dashboard & API**
+   - Developed with **go**
+   - for event-driven interactions and data management
+
+3. **Smart Contracts**
+   - Deployed on **Cosmos SDK using CosmWasm**
+   - Stores promises, token records, and user interactions immutably
+
 
 ---
 
-## 🔧 Tecnologia Web3 Utilizada
+## 🚀 How It Works
 
-O P.A.G.A. é baseado em tecnologia blockchain para garantir transparência e imutabilidade. 
+1. 🔐 **Login & Onboarding**: Users sign in via Web3 wallets.
+2. 📝 **Promise Monitoring**: Citizens register updates and evidence about political promises.
+3. 🤝 **Peer Validation**: The community upvotes and verifies contributions.
+4. 🪙 **Token Rewards**: Tokens are distributed for accurate participation.
+5. 🛍️ **Token Use**: Tokens can be spent on partner businesses or to prioritize new civic requests.
+6. 🏅 **Trusted Politician Seal**: Politicians who keep promises earn a public reputation badge.
 
-### 🏗️ Componentes principais:
+---
 
-- 📝 **Smart Contracts (Contratos Inteligentes)**: Desenvolvidos em Solidity, armazenam e validam os registros das promessas eleitorais e a distribuição dos tokens.
-- ⛓️ **Blockchain (Ethereum / Polygon / Solana)**: Utiliza uma blockchain eficiente para registros descentralizados e seguros.
-- 🔑 **Carteiras Web3**: Compatibilidade com carteiras como **MetaMask, Trust Wallet** e outras para autenticação e recebimento de tokens.
-- 🪙 **Tokens ERC-20 / ERC-721**: Implementação de um sistema de tokens para recompensas.
-- 📂 **IPFS (InterPlanetary File System)**: Armazena provas de cumprimento de promessas de forma descentralizada.
-- 🔗 **Oracles**: Uso de oráculos para integração com dados públicos e registros governamentais.
+## 🌐 Web3 & Cosmos Integration
+
+Built with **CosmWasm** smart contracts, P.A.G.A. runs on neutron blockchain, minimizing gas fees and ensuring control of protocol rules.
+
+### 🔩 Key Technologies
+
+- **CosmWasm (Rust-based smart contracts)**
+- **Interchain communication (IBC)** for cross-chain functionality  
+- **Keplr wallet** compatibility for authentication  
+- **Token gating** to prevent misuse (non-transferable tokens for validation power)
 
 ---
 
 ## 📅 Roadmap
 
+### Phase 1 – Development (2025)
+- MVP smart contracts (CosmWasm)
+- Web3 interface (React + Wallet support)
+- Backend APIs for event-driven interaction
 
-### 📍 Fase 1 - Desenvolvimento (2025)
-- 🚀 Criação do MVP
-- 📌 Implementação dos contratos inteligentes
-- 🎨 Desenvolvimento da interface Web3
+### Phase 2 – Testing & Partnerships (2025–2026)
+- Beta test with university and local elections
+- Partnership with civic organizations and local commerce
+- Refinement via user feedback
 
-### 📍 Fase 2 - Testes e Parcerias (2025-2026)
-- 🔬 Testes beta com grupos selecionados
-- 🛍️ Parcerias com comércios locais
-- 📢 Avaliação da usabilidade e feedback
+### Phase 3 – Public Launch (2026)
+- Official release with DAO governance
+- Tokenized priority queue for proposal voting
+- Local expansion and internationalization
 
-### 📍 Fase 3 - Lançamento Oficial (2026)
-- 🎉 Lançamento público da plataforma
+---
 
-![Roadmap](./mnt/data/diagrama_c4_03.png)
+## 👥 Core Team
 
-Contatos:
+- **Fernando Oliveira** – Smart Contract Engineer   
+- **Cássius Bessa** – Backend Developer  
 
-**GitHub**:
+---
 
- [Repositório P.A.G.A](https://github.com/fenol64/p.a.g.a)  
+## 🤝 Community & Contributions
 
-[Fernando Oliveira](https://github.com/fenol64)   
+We welcome contributors passionate about civic tech, blockchain governance, and public transparency.
 
-[Marcus Vinicius de Araujo](https://github.com/mvrga)  
+**GitHub Repositories:**
 
-[Cássius Bessa](https://github.com/cassiusbessa)  
+- [P.A.G.A. Core](https://github.com/fenol64/p.a.g.a)  
 
-[Allan Dantas](https://github.com/allandantas21)
+---
 
-[Daniel Bessa](https://github.com/dwbessa)
+## 📬 Contact
 
-[Eduardo Gomes](https://github.com/edgvi10)  
+- GitHub: [@fenol64](https://github.com/fenol64)
+- Project Questions: Open an issue or fork the repo to contribute!
 
-
-Vamos juntos construir um futuro mais transparente e participativo! 🚀
+Let’s build a more transparent and participatory future. 🚀
 
