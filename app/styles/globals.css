@@ -1,0 +1,79 @@
+
+
+:root {
+    --blue: #012169;
+    --green: #009739;
+    --yellow: #fedd00;
+}
+
+*:last-child {
+    margin-bottom: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#__next, main {}
+
+.text-muted {
+    color: inherit !important;
+    opacity: 0.9;
+}
+
+@media (prefers-color-scheme: dark) {
+    .commitment-card {
+        background-color: var(--bs-primary);
+    }
+}
+
+@media(prefers-color-scheme: light) {
+    .commitment-card {
+        background-color: var(--bs-primary);
+    }
+}
+
+.text-overflow {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.list-inline li {
+    display: inline-block;
+}
+
+.bg-opacity-light {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.btn-opacity-light {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: var(--bs-light);
+    transition: all 0.3s;
+}
+
+.btn-opacity-light:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+@media screen and (min-width: 768px) {
+    .rounded-bottom-md-0 {
+        border-bottom-right-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+}
