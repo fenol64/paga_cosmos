@@ -107,7 +107,5 @@ We welcome contributors passionate about civic tech, blockchain governance, and 
 ## 📬 Contact
 
 - GitHub: [@fenol64](https://github.com/fenol64)
-- Project Questions: Open an issue or fork the repo to contribute!
 
-Let’s build a more transparent and participatory future. 🚀
 
